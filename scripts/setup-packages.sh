@@ -3,7 +3,7 @@
 # Install packages using Homebrew
 install_packages() {
   echo "Installing packages from Brewfile..."
-  local brewfile_path="$(dirname "$0")/../Brewfile"
+  local brewfile_path="${REPO_DIR}/Brewfile"
 
   if [ -f "$brewfile_path" ]; then
     brew bundle --file="$brewfile_path"

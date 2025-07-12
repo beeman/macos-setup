@@ -7,3 +7,6 @@
 
 # Default Git user email
 : ${GIT_USER_EMAIL:="beeman@beeman.nl"}
+
+# Repo DIR
+: ${REPO_DIR:="$HOME/macos-setup"}
